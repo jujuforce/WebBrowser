@@ -34,6 +34,7 @@
 		D3C0B1321CD0AB33005AC0A0 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/WebBrowser.strings; sourceTree = "<group>"; };
 		D3C0B1331CD0AB92005AC0A0 /* InternationalControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternationalControl.swift; sourceTree = "<group>"; };
 		D3C0B1351CD0BAF8005AC0A0 /* SafariActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariActivity.swift; sourceTree = "<group>"; };
+		F987E9B72099E42800BA93BE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/WebBrowser.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +162,7 @@
 				"zh-Hant",
 				ko,
 				ja,
+				fr,
 			);
 			mainGroup = D35C000E1CCF4E1300F8203D;
 			productRefGroup = D35C00191CCF4E1300F8203D /* Products */;
@@ -210,6 +212,7 @@
 				D3C0B1301CD0AB20005AC0A0 /* zh-Hant */,
 				D3C0B1311CD0AB27005AC0A0 /* ko */,
 				D3C0B1321CD0AB33005AC0A0 /* ja */,
+				F987E9B72099E42800BA93BE /* fr */,
 			);
 			name = WebBrowser.strings;
 			sourceTree = "<group>";

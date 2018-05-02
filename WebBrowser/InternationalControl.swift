@@ -14,6 +14,7 @@ public enum WebBrowserLanguage {
     case traditionalChinese
     case korean
     case japanese
+    case french
 
     internal var identifier: String {
         switch self {
@@ -22,6 +23,7 @@ public enum WebBrowserLanguage {
         case .traditionalChinese: return "zh-Hant"
         case .korean: return "ko"
         case .japanese: return "ja"
+        case .french: return "fr"
         }
     }
 }
