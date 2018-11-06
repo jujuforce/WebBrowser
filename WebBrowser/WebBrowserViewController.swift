@@ -300,7 +300,14 @@ extension WebBrowserViewController {
             barButtonItems.append(actionButton)
         }
 
-        setToolbarItems(barButtonItems, animated: true)
+        if let parent = parent
+        {
+            parent.setToolbarItems(barButtonItems, animated: true)
+        }
+        else
+        {
+            setToolbarItems(barButtonItems, animated: true)
+        }
     }
 }
 
