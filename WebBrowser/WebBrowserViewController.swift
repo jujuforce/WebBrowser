@@ -169,6 +169,11 @@ extension WebBrowserViewController {
         webView.uiDelegate = self
         webView.isMultipleTouchEnabled = true
         webView.scrollView.alwaysBounceVertical = true
+        if #available(iOS 13.0, *)
+        {
+            webView.isOpaque = false
+            webView.backgroundColor = .systemBackground
+        }
         view.addSubview(webView)
 
         webView.addObserver(self, forKeyPath: WebBrowser.estimatedProgressKeyPath, options: .new, context: &WebBrowser.estimatedProgressContext)
