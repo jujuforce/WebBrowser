@@ -169,6 +169,10 @@ extension WebBrowserViewController {
         webView.uiDelegate = self
         webView.isMultipleTouchEnabled = true
         webView.scrollView.alwaysBounceVertical = true
+        if #available(iOS 9.0, *)
+        {
+            webView.allowsLinkPreview = false
+        }
         if #available(iOS 13.0, *)
         {
             webView.isOpaque = false
